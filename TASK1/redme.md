@@ -6,3 +6,10 @@ git merge master
 git add [files that were conflicted]
 git commit
 git push
+sjojon
+  
+  dsa
+  
+  sa
+  s
+  
