@@ -1,3 +1,3 @@
-<HELLO DEVOPS>
+HELLO DEVOPS
   HI
   MY NAME IS Konstantine
