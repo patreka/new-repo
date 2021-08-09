@@ -1,11 +1,12 @@
 UBUNTU
-bin/bash
+#!/bin/bash
 apt -y update
-apt -y install ngnix
-OS_VERSION=$(cat /proc/version)
+apt -y  install ngnix
+echo OS_VERSION=$(cat/proc/version)
 echo "<html><body bgcolor=green><center><h1><p><font color=red>Hello World <br> $OS_VERSION</h1></center></body></html>" > /var/www/hello/index.hello-debian.html
-sudo service ngnix start
+sudo systemctl start ngnix.service
 chkconfig ngnix on
+
 	
 	MAMAZON LINUX
 	!/bin/bash
