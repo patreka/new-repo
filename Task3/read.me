@@ -1,0 +1,26 @@
+on ubuntu have internet access all side 
+
+http://18.184.170.204/
+
+for ubuntu script
+
+#!/bin/bash
+apt -y update
+apt -y install nginx
+OS_VERSION=$(cat /proc/version)
+echo "<html><body bgcolor=white><center><h1><p><font color=blue>Hello World <br> $OS_VERSION</h1></center></body></html>" > /var/www/html/index.html
+sudo systemctl start nginx
+ nginx on
+ 
+ 
+.......
+
+on red hat side 
+inbound rules are
+opened
+https
+http
+icmp
+ssh
+only for ubuntu local ips
+and outgoing ruless too
